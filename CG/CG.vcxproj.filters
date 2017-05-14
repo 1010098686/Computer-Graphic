@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\shape_include">
+      <UniqueIdentifier>{eb0b186e-23f2-4408-bc0d-bed4d4f3417e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shape_src">
+      <UniqueIdentifier>{28c57eaf-d5db-4008-b71e-12d29544c5e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>头文件\shape_include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>源文件\shape_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CG.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CG.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CG.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
