@@ -1,6 +1,6 @@
 #include"stdafx.h"
 #include"Polygon.h"
-#include<GL/glut.h>
+#include<glut.h>
 
 
 void MPolygon::construct(vector<IntPoint> points)

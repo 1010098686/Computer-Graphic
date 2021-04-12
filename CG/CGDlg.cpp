@@ -451,7 +451,10 @@ void CCGDlg::OnDrawEllipse()
 void CCGDlg::OnSettingsColor()
 {
 	// TODO:  在此添加命令处理程序代码
-	CColorDialog dialog = CColorDialog(color);
+	//CColorDialog dialog = CColorDialog(color);
+	CColorDialog dialog;
+	dialog.m_cc.Flags |= CC_FULLOPEN | CC_RGBINIT;
+	dialog.m_cc.rgbResult = color;
 	if (IDOK == dialog.DoModal())
 	{
 		color = dialog.GetColor();
@@ -536,7 +539,8 @@ void CCGDlg::OnFileSave32771()
 {
 	// TODO:  在此添加命令处理程序代码
 	TCHAR filter[] = _T("图片文件(*.bmp)|*.bmp||");
-	CFileDialog dialog = CFileDialog(FALSE, _T("bmp"), NULL, OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT, filter, this);
+	//CFileDialog dialog = CFileDialog(FALSE, _T("bmp"), NULL, OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT, filter, this);
+	CFileDialog dialog(FALSE, _T("bmp"), NULL, OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT, filter, this);
 	CString str;
 
 	if (IDOK == dialog.DoModal())
@@ -638,7 +642,10 @@ void CCGDlg::OnEditFill()
 	// TODO:  在此添加命令处理程序代码
 	if (shape != NULL)
 	{
-		CColorDialog dialog = CColorDialog(color);
+		//CColorDialog dialog = CColorDialog(color);
+		CColorDialog dialog;
+		dialog.m_cc.Flags |= CC_FULLOPEN | CC_RGBINIT;
+		dialog.m_cc.rgbResult = color;
 		if (IDOK == dialog.DoModal())
 		{
 			COLORREF newColor = dialog.GetColor();

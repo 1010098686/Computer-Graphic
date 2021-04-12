@@ -1,7 +1,7 @@
 #include"stdafx.h"
 #include"Circle.h"
 #include<cmath>
-#include<GL/glut.h>
+#include<glut.h>
 
 Circle::Circle(int width, int height, int x, int y, double r) :Shape(width, height)
 {

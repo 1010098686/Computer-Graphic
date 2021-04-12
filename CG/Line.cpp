@@ -1,7 +1,7 @@
 #include"stdafx.h"
 #include"Line.h"
 #include<cmath>
-#include<GL/glut.h>
+#include<glut.h>
 
 
 

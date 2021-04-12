@@ -1,7 +1,7 @@
 #include"stdafx.h"
 #include"Ellipse.h"
 #include<cmath>
-#include<GL/glut.h>
+#include<glut.h>
 
 MEllipse::MEllipse(int width, int height, int x, int y, double rx, double ry) :Shape(width, height)
 {

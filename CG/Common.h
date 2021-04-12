@@ -1,7 +1,7 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-#include<GL/glut.h>
+#include<glut.h>
 
 #define PI 3.1415926
 

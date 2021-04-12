@@ -4,7 +4,7 @@
 
 #include"Common.h"
 #include<list>
-#include<GL/glut.h>
+#include<glut.h>
 using namespace std;
 
 class Shape
